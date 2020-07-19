@@ -77,31 +77,41 @@ a:hover, a:focus {
   border: 1px solid;
   border-radius: 10%;
   position: relative;
-  height: 200px;
+  height: 18rem;
 }
 
-#pro1{
+#recipeFinder{
   background: url(../img/recipeLogo.JPG) no-repeat center;
   background-size:     cover; 
 }
 
-#pro2{
-  background: url(../img/firstportfolio.JPG) no-repeat center;
+#capstone{
+  background: url(../img/capstone-project.JPG) no-repeat center;
   background-size:     cover; 
 }
 
-#pro3{
+#registerForm{
   background: url(../img/formlogo.jpg) no-repeat center;
   background-size:     cover; 
 }
 
-#pro4{
+#RPS{
   background: url(../img/rpslogo.jpg) no-repeat center;
   background-size:     cover;                      
 }
 
+#clouds{
+  background: url(../img/cloudimage.JPG) no-repeat center;
+  background-size:     cover;                      
+}
+
+#firstPortfolio{
+  background: url(../img/firstportfolio.JPG) no-repeat center;
+  background-size:     cover;                      
+}
+
 .projectSpace{
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .btnAlign{
@@ -116,17 +126,18 @@ a:hover, a:focus {
 .proTxt{
   position: absolute;
   width: 100%;
-  height: 60px;
+  height: 7rem;
   text-align: center;
   bottom: 0px;
   font-size: 0.9rem;
   background-color: black;
   color: white;
-  padding-top: 5px;
+  padding-top: 0.5rem;
 }
 
 @media (min-width: 767px) {
 
+  /*
   #project1{
     animation-name: project1;
     animation-duration: 4s;
@@ -170,10 +181,11 @@ a:hover, a:focus {
     0% {right:-500px}
     100% {right:0px}
   }
-
+  */
   
   .btnAlign {
     position: relative;
+    padding-top: 1rem;
   }
 
 .btnAlignActive {
@@ -189,6 +201,10 @@ a:hover, a:focus {
   100% {opacity: 1;}
 }
 
+}
+
+.paddingBottom{
+  padding-bottom: 2rem;
 }
 
 
