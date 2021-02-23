@@ -95,6 +95,11 @@ a:hover, a:focus {
   background-size:     cover; 
 }
 
+#internship{
+  background: url(../img/internship\ -\ banner.JPG) no-repeat center;
+  background-size:     cover; 
+}
+
 #RPS{
   background: url(../img/rpslogo.jpg) no-repeat center;
   background-size:     cover;                      
@@ -107,6 +112,21 @@ a:hover, a:focus {
 
 #firstPortfolio{
   background: url(../img/firstportfolio.JPG) no-repeat center;
+  background-size:     cover;                      
+}
+
+#covidApp{
+  background: url(../img/covid.JPG) no-repeat center;
+  background-size:     cover;                      
+}
+
+#reactCart{
+  background: url(../img/react-cart.JPG) no-repeat center;
+  background-size:     cover;                      
+}
+
+#linkedinClone{
+  background: url(../img/linkedin-clone.JPG) no-repeat center;
   background-size:     cover;                      
 }
 
@@ -366,6 +386,13 @@ a:hover, a:focus {
   body{
     overflow-x: hidden; 
   }
+}
+
+
+/*modal starts here*/
+
+.modal-img{
+  padding-top: 1rem;
 }
 
 
